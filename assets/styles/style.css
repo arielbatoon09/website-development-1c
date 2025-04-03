@@ -1,0 +1,26 @@
+/* 
+-- Responsive Breakpoints
+sm: 640px - mobile phone size
+md: 768px - Tablet size
+lg: 1024px - Laptop standard size
+xl: 1280px -- larger wide desktop size
+*/
+
+@import "button.css";
+@import "navbar.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
