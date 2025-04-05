@@ -6,8 +6,14 @@ lg: 1024px - Laptop standard size
 xl: 1280px -- larger wide desktop size
 */
 
+/* Reusable Design */
 @import "button.css";
+@import "card.css";
+
+/* Section Design */
 @import "navbar.css";
+@import "hero-banner.css";
+@import "service.css";
 
 * {
   margin: 0px;

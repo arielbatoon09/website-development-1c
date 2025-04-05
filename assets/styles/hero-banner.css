@@ -1,0 +1,49 @@
+#hero-banner {
+  display: flex;
+  padding: 72px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  height: auto;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+}
+
+.hero-content p {
+  margin: 14px 0;
+}
+
+.hero-content .btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #hero-banner {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content .btn-container {
+    flex-direction: column;
+  }
+}
