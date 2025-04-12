@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>1C Website - Contact</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
 </head>
+
 <body>
-  Contact
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">
+      <div>Web Development</div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="contact">
+      <div class="container contact-container">
+        <h1>Send a Message</h1>
+        <form action="./thank-you.html">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" placeholder="Enter first name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" placeholder="Enter last name" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="subject" id="subject" placeholder="Enter subject" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Subject</label>
+            <textarea id="message" placeholder="Enter message" row="5" required></textarea>
+          </div>
+
+          <button class="primary-button" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>© 2025 - Web Development. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
+
 </html>

@@ -14,6 +14,9 @@ xl: 1280px -- larger wide desktop size
 @import "navbar.css";
 @import "hero-banner.css";
 @import "service.css";
+@import "contact.css";
+@import "thank-you.css";
+@import "footer.css";
 
 * {
   margin: 0px;
